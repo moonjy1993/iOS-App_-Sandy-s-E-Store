@@ -52,10 +52,10 @@ First draft schema:
 5. Click Stats Button to navigate statstics page.
 
 ## Wireframes
-
+![Stat](wireframes/StatPage.png)
 ![Homepage](wireframes/mainscreen.png)
 ![Add](wireframes/addScreen.png)
-![Stat](wireframes/StatPage.png)
+
 
 
 
