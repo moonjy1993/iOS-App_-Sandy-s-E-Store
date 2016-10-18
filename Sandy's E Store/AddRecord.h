@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  AddRecord.h
 //  Sandy's E Store
 //
-//  Created by sandy moon on 10/14/16.
+//  Created by sandy moon on 10/17/16.
 //  Copyright © 2016 nyu.edu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-
-@interface ViewController : UIViewController
-
+@interface AddRecord : UIViewController
 
 @end
-

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582B540F1DB5487D00365F84 /* AddRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 582B540E1DB5487D00365F84 /* AddRecord.m */; };
 		5871CD691DB10D6800E4CD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CD681DB10D6800E4CD91 /* main.m */; };
 		5871CD6C1DB10D6800E4CD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CD6B1DB10D6800E4CD91 /* AppDelegate.m */; };
 		5871CD6F1DB10D6800E4CD91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CD6E1DB10D6800E4CD91 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		5871CD771DB10D6800E4CD91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5871CD751DB10D6800E4CD91 /* LaunchScreen.storyboard */; };
 		5871CD821DB10D6800E4CD91 /* Sandy_s_E_StoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CD811DB10D6800E4CD91 /* Sandy_s_E_StoreTests.m */; };
 		5871CD8D1DB10D6800E4CD91 /* Sandy_s_E_StoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CD8C1DB10D6800E4CD91 /* Sandy_s_E_StoreUITests.m */; };
+		5871CDC41DB17FCF00E4CD91 /* Object_Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871CDC31DB17FCF00E4CD91 /* Object_Info.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		582B540D1DB5487D00365F84 /* AddRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecord.h; sourceTree = "<group>"; };
+		582B540E1DB5487D00365F84 /* AddRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecord.m; sourceTree = "<group>"; };
 		5871CD641DB10D6800E4CD91 /* Sandy's E Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sandy's E Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5871CD681DB10D6800E4CD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5871CD6A1DB10D6800E4CD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		5871CD881DB10D6800E4CD91 /* Sandy's E StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sandy's E StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5871CD8C1DB10D6800E4CD91 /* Sandy_s_E_StoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sandy_s_E_StoreUITests.m; sourceTree = "<group>"; };
 		5871CD8E1DB10D6800E4CD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5871CDC21DB17FCF00E4CD91 /* Object_Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object_Info.h; sourceTree = "<group>"; };
+		5871CDC31DB17FCF00E4CD91 /* Object_Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object_Info.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +111,14 @@
 				5871CD6B1DB10D6800E4CD91 /* AppDelegate.m */,
 				5871CD6D1DB10D6800E4CD91 /* ViewController.h */,
 				5871CD6E1DB10D6800E4CD91 /* ViewController.m */,
+				5871CDC21DB17FCF00E4CD91 /* Object_Info.h */,
+				5871CDC31DB17FCF00E4CD91 /* Object_Info.m */,
 				5871CD701DB10D6800E4CD91 /* Main.storyboard */,
 				5871CD731DB10D6800E4CD91 /* Assets.xcassets */,
+				582B540D1DB5487D00365F84 /* AddRecord.h */,
+				582B540E1DB5487D00365F84 /* AddRecord.m */,
 				5871CD751DB10D6800E4CD91 /* LaunchScreen.storyboard */,
+				5871CD681DB10D6800E4CD91 /* main.m */,
 				5871CD781DB10D6800E4CD91 /* Info.plist */,
 				5871CD671DB10D6800E4CD91 /* Supporting Files */,
 			);
@@ -117,7 +128,6 @@
 		5871CD671DB10D6800E4CD91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5871CD681DB10D6800E4CD91 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -275,7 +285,9 @@
 			files = (
 				5871CD6F1DB10D6800E4CD91 /* ViewController.m in Sources */,
 				5871CD6C1DB10D6800E4CD91 /* AppDelegate.m in Sources */,
+				5871CDC41DB17FCF00E4CD91 /* Object_Info.m in Sources */,
 				5871CD691DB10D6800E4CD91 /* main.m in Sources */,
+				582B540F1DB5487D00365F84 /* AddRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				5871CD931DB10D6800E4CD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5871CD941DB10D6800E4CD91 /* Build configuration list for PBXNativeTarget "Sandy's E StoreTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				5871CD961DB10D6800E4CD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5871CD971DB10D6800E4CD91 /* Build configuration list for PBXNativeTarget "Sandy's E StoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				5871CD991DB10D6800E4CD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
