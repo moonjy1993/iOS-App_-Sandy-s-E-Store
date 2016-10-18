@@ -54,8 +54,8 @@ First draft schema:
 ## Wireframes
 
 ![Homepage](wireframes/mainscreen.png)
-![Add](documentation/addScreen.png)
-![Stat](documentation/StatPage.png)
+![Add](wireframes/addScreen.png)
+![Stat](wireframes/StatPage.png)
 
 
 
@@ -65,8 +65,3 @@ First draft schema:
 
 
 
-
-
-
-
-# Food-Journal
